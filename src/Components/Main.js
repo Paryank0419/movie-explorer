@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import Card from "./Card.js";
 import logo from "../images/logo.svg";
-import { useEffect } from "react/cjs/react.development";
 import moment from "moment";
 
 //calc time span

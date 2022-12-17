@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
+    "@types/react": "^18.0.26",
     "typescript": "3.2.1"
   },
   "scripts": {
