@@ -6,10 +6,10 @@ import moment from "moment";
 
 //calc time span
 let currDate = moment().format("YYYY-MM-DD");
-console.log(currDate);
+
 let prevDate = moment().subtract(4, "months").format("YYYY-MM-DD");
 
-let API_KEY = "&api_key=5d050c69652a2801e1310336c430fcaa";
+//let API_KEY = "&api_key=5d050c69652a2801e1310336c430fcaa";
 let base_url = "https://api.themoviedb.org/3";
 let url = `https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=${prevDate}&primary_release_date.lte=${currDate}&api_key=5d050c69652a2801e1310336c430fcaa`;
 function Main() {
